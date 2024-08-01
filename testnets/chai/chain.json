@@ -1,0 +1,89 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_name": "chai",
+  "chain_id": "chai-1",
+  "pretty_name": "Chai",
+  "status": "live",
+  "website": "https://chai.market/",
+  "network_type": "testnet",
+  "bech32_prefix": "init",
+  "daemon_name": "minitiad",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uchai",
+        "fixed_min_gas_price": 0.15,
+        "low_gas_price": 0.15,
+        "average_gas_price": 0.15,
+        "high_gas_price": 0.4
+      }
+    ]
+  },
+  "description": "Chai Public Testnet",
+  "apis": {
+    "rpc": [
+      {
+        "address": "http://52.221.193.222:26657"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://lcd.chai.market/"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "initia testnet scan",
+      "url": "https://explorer.testnet.initia.xyz/?chainId=chai-1",
+      "tx_page": "https://explorer.testnet.initia.xyz/tx/${txHash}?chainId=chai-1",
+      "account_page": "https://explorer.testnet.initia.xyz/address/${accountAddress}?chainId=chai-1"
+    }
+  ],
+  "faucets": [
+    {
+      "kind": "faucet",
+      "url": "https://faucet.chai-1.chai.zone/"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://github.com/Cohaos/initia-registry/tree/main/testnets/chai/images/CHAI.png",
+      "svg": "https://github.com/Cohaos/initia-registry/tree/main/testnets/chai/images/CHAI.svg"
+    }
+  ],
+  "logo_URIs": {
+    "png": "https://github.com/Cohaos/initia-registry/tree/main/testnets/chai/images/CHAI.png",
+    "svg": "https://github.com/Cohaos/initia-registry/tree/main/testnets/chai/images/CHAI.svg"
+  },
+  "metadata": {
+    "op_bridge_id": "122",
+    "op_denoms": [
+      "uinit"
+    ],
+    "executor_uri": "https://executor.minimove-1.initia.xyz",
+    "ibc_channels": [
+      {
+        "chain_id": "initiation-1",
+        "port_id": "nft-transfer",
+        "channel_id": "channel-1",
+        "version": "ics721-1"
+      },
+      {
+        "chain_id": "initiation-1",
+        "port_id": "transfer",
+        "channel_id": "channel-0",
+        "version": "ics20-1"
+      }
+    ],
+    "assetlist": "https://github.com/Cohaos/initia-registry/tree/main/testnets/chai/assetlist.json",
+    "minitia": {
+      "type": "minimove",
+      "version": "v0.2.16"
+    }
+  }
+}
