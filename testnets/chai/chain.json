@@ -52,13 +52,13 @@
   ],
   "images": [
     {
-      "png": "https://github.com/Cohaos/initia-registry/tree/main/testnets/chai/images/CHAI.png",
-      "svg": "https://github.com/Cohaos/initia-registry/tree/main/testnets/chai/images/CHAI.svg"
+      "png": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/chai/images/CHAI.png",
+      "svg": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/chai/images/CHAI.svg"
     }
   ],
   "logo_URIs": {
-    "png": "https://github.com/Cohaos/initia-registry/tree/main/testnets/chai/images/CHAI.png",
-    "svg": "https://github.com/Cohaos/initia-registry/tree/main/testnets/chai/images/CHAI.svg"
+    "png": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/chai/images/CHAI.png",
+    "svg": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/chai/images/CHAI.svg"
   },
   "metadata": {
     "op_bridge_id": "122",
@@ -80,7 +80,7 @@
         "version": "ics20-1"
       }
     ],
-    "assetlist": "https://github.com/Cohaos/initia-registry/tree/main/testnets/chai/assetlist.json",
+    "assetlist": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/chai/assetlist.json",
     "minitia": {
       "type": "minimove",
       "version": "v0.2.16"
