@@ -21,13 +21,13 @@
       "coingecko_id": "",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/chai/images/CHAI.png",
-          "svg": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/chai/images/CHAI.svg"
+          "png": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/chai/images/CHAI.png",
+          "svg": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/chai/images/CHAI.svg"
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/chai/images/CHAI.png",
-        "svg": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/chai/images/CHAI.svg"
+        "png": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/chai/images/CHAI.png",
+        "svg": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/chai/images/CHAI.svg"
       }
     },
     {
@@ -61,13 +61,13 @@
       "coingecko_id": "",
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/minimove/images/INIT.png",
-          "svg": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/minimove/images/INIT.svg"
+          "png": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/minimove/images/INIT.png",
+          "svg": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/minimove/images/INIT.svg"
         }
       ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/minimove/images/INIT.png",
-        "svg": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/minimove/images/INIT.svg"
+        "png": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/minimove/images/INIT.png",
+        "svg": "https://raw.githubusercontent.com/Cohaos/initia-registry/main/testnets/minimove/images/INIT.svg"
       }
     },
     {
